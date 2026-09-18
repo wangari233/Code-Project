@@ -1,6 +1,8 @@
-user_input = input("Enter a number:")
+user_input = input("Enter a number to check whether it is positive, negative or zero:")
 if not user_input:
     print("No input entered")
+elif user_input.isalpha:
+  print("You entered a letter")
 else:
     try:
         number = int(user_input)

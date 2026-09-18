@@ -15,7 +15,7 @@ else:
      else:
       print("Grade: F")
     except ValueError:
-      print("Wrong input. Please enter a whole number")
+      print("Wrong input: Please enter a whole number")
     
     
     
