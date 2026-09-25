@@ -1,7 +1,3 @@
-numbers = input("Enter numbers separated by spaces:").split()
-unique = []
-for num in numbers:
-    num = int(num)
-    if num not in unique:
-        unique.append(num)
-print("List without duplicates:", unique)
+numbers =  10, 20, 30, 40, 50 
+print(list(numbers))
+print(type(numbers))

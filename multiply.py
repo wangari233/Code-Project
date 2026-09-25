@@ -1,3 +1,4 @@
-for numbers in range(1,31):
-    if numbers % 3 == 0:
-        print(numbers)
+def multiply(a, b):
+    return a * b
+multiply(6, 7)
+print(multiply(6, 7))
