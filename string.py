@@ -1,2 +1,3 @@
-my_string_var = 'Hello'
-print('string:', my_string_var)
+text = input("Enter a string:")
+print("Reversed:", text[:: -1])
+print("Number of characters:", len(text))
