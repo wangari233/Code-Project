@@ -1,2 +1,2 @@
-my_float_var = 3.3
-print('float:', my_float_var)
+number = 3.14159
+print("Pi is approximately {:.2f}".format(number))
