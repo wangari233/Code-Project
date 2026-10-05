@@ -1,6 +1,3 @@
-numbers = input("Enter a number from 1 to 10:")
-while numbers == "":
-    print("Input incorrect. Please try again!")
-    numbers = input("Enter a number from 1 to 10:")
-numbers = int(numbers)
-print(f"You have entered {numbers}")
+numbers = [10, 15, 20, 25, 30, 35, 40]
+new_numbers = [num for num in numbers if num >25]
+print(new_numbers)
