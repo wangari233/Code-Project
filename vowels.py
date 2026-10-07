@@ -1,3 +1,4 @@
+
 def count_vowels(text):
     vowels = "aeiouAEIOU"
     count = 0
@@ -8,3 +9,8 @@ def count_vowels(text):
 
 print(count_vowels("Hello, how many vowels are in this sentence?"))
 print(count_vowels("My name is Rita."))
+
+sentence = "list comprehensions are powerful"
+result = [char for char in sentence if char.lower() not in "aeiou"]
+print(result)
+
