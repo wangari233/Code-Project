@@ -8,4 +8,4 @@ def safe_divide(a, b):
         print("Operations finished")
 
 print(safe_divide(16, 2))
-print(safe_divide(6 / 0))        
+print(safe_divide(6 , 0))        
