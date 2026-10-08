@@ -1,3 +1,8 @@
+
+fruits = ("apple", "banana", "cherry")
+print(fruits[1])  
+
 fruits = ["apple", "banana", "cherry"]
 fruits_length = {fruit: len(fruit) for fruit in fruits}
 print(fruits_length)
+
