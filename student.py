@@ -3,15 +3,12 @@ students = [{"name":"Rita", "age": 20, "course": "Cyber Security", "marks": 90},
             {"name": "Joseph", "age": 26, "course": "Computer Science", "marks":80},
             {"name": "Sammy", "age": 36, "course": "Data Science", "marks": 75},
             {"name": "Cecil", "age": 40, "course": "Accounting", "marks": 70}]
-
-def display_all_students():
-    print("\nAll Students")
-    if not students:
-        print("No students found")
-        return
-    for index, student in enumerate(students,1):
-     print(f"{index}. Name: {student['name']}, Age: {student['age']}, Course: {student['course']}, Marks: {student['marks']}")
-
+def search_student(name):
+            for index, student in enumerate(students, 1):
+                if student['name'] == name:
+                   print(f"{index}. Name: {student['name']}, Age: {student['age']}, Course: {student['course']}, Marks: {student['marks']}")
+                   return
+            print("Student not found")
 def find_student_by_name():
     name = input("\nEnter student name to search:").strip()
     for student in students:
