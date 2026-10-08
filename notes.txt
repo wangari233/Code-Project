@@ -1,0 +1,3 @@
+Learning Python file handling
+This is an appended line
+I love Python
