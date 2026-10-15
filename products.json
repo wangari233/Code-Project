@@ -1,0 +1,9 @@
+[
+    {
+        "id": "P001",
+        "name": "Bread",
+        "category": "Bakery",
+        "price": 30.0,
+        "quantity": 15
+    }
+]
