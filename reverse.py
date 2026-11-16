@@ -1,4 +1,7 @@
-def reverse_and_flip(words: list[str]) -> list[str]:
-    return [word[::-1] for word in reversed(words)]
-print(reverse_and_flip(["hello", "world", "python"]))
-    
+def reverse_string(s):
+    result = ""
+    for char in s:
+        result = char + result
+    return result
+
+print(reverse_string("hello"))
